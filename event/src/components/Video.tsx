@@ -1,3 +1,4 @@
+
 import { Player, Youtube, DefaultUi } from "@vime/react";
 import { DiscordLogo, Lightning, FileArrowDown, CaretRight } from "phosphor-react";
 
@@ -14,6 +15,7 @@ const GET_LESSON_BY_SLUG_QUERY = gql`
       avatarURL
       name
       bio
+
     }
   }
 }
